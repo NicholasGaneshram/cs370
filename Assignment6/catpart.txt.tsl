@@ -1,0 +1,1100 @@
+
+Test Case 1  		<error>
+   Presence of a file corresponding to the name :  Not present
+
+
+Test Case 2  		<single>
+   File :  Empty
+
+
+Test Case 3  		<error>
+   File :  File not found
+
+
+Test Case 4  		<error>
+   number of file provided :  None
+
+
+Test Case 5  		<single>
+   number of file provided :  One
+
+
+Test Case 6  		<single>
+   number of file provided :  More than One
+
+
+Test Case 7  		<error>
+   presence of file :  exist
+
+
+Test Case 8  		<single>
+   presence of file :  does not exist
+
+
+Test Case 9  		<error>
+   File existence :  Empty
+
+
+Test Case 10 		<error>
+   file space :  no
+
+
+Test Case 11 		<error>
+   duplicate file name :  yes
+
+
+Test Case 12 		<single>
+   number of command line arguments and options :  Zero
+
+
+Test Case 13 		<error>
+   number of command line arguments and options :  Opt not found
+
+
+Test Case 14 		<error>
+   Valid flags specified :  No
+
+
+Test Case 15 		<single>
+   -b Flag specified :  Yes
+
+
+Test Case 16 		<error>
+   -b Flag specified :  No
+
+
+Test Case 17 		<single>  (follows [if])
+   command line argument for backup -b :  existance of -b
+
+
+Test Case 18 		<single>
+   -f Flag specified :  Yes
+
+
+Test Case 19 		<error>
+   -f Flag specified :  No
+
+
+Test Case 20 		<single>
+   -r Flag specified :  Yes
+
+
+Test Case 21 		<error>
+   -r Flag specified :  No
+
+
+Test Case 22 		<single>
+   -v Flag specified :  Yes
+
+
+Test Case 23 		<error>
+   -v Flag specified :  No
+
+
+Test Case 24 		(Key = 2.2.1.0.0.2.2.2.2.1.0.2.0.1.0.2.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  one
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 25 		(Key = 2.2.1.0.0.2.2.2.2.1.0.2.0.1.0.2.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  one
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 26 		(Key = 2.2.1.0.0.2.2.2.2.1.0.2.0.2.0.1.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  one
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 27 		(Key = 2.2.1.0.0.2.2.2.2.1.0.2.0.2.0.1.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  one
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 28 		(Key = 2.2.1.0.0.2.2.2.2.1.0.2.0.2.0.2.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  one
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 29 		(Key = 2.2.1.0.0.2.2.2.2.1.0.2.0.2.0.2.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  one
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 30 		(Key = 2.2.1.0.0.2.2.2.3.1.0.2.0.1.0.2.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  multiple
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 31 		(Key = 2.2.1.0.0.2.2.2.3.1.0.2.0.1.0.2.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  multiple
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 32 		(Key = 2.2.1.0.0.2.2.2.3.1.0.2.0.2.0.1.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  multiple
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 33 		(Key = 2.2.1.0.0.2.2.2.3.1.0.2.0.2.0.1.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  multiple
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 34 		(Key = 2.2.1.0.0.2.2.2.3.1.0.2.0.2.0.2.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  multiple
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 35 		(Key = 2.2.1.0.0.2.2.2.3.1.0.2.0.2.0.2.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  multiple
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 36 		(Key = 2.2.1.0.0.2.2.2.4.1.0.2.0.1.0.2.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -b
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 37 		(Key = 2.2.1.0.0.2.2.2.4.1.0.2.0.1.0.2.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -b
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 38 		(Key = 2.2.1.0.0.2.2.2.4.1.0.2.0.2.0.1.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -b
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 39 		(Key = 2.2.1.0.0.2.2.2.4.1.0.2.0.2.0.1.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -b
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 40 		(Key = 2.2.1.0.0.2.2.2.4.1.0.2.0.2.0.2.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -b
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 41 		(Key = 2.2.1.0.0.2.2.2.4.1.0.2.0.2.0.2.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -b
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 42 		(Key = 2.2.1.0.0.2.2.2.5.1.0.2.0.1.0.2.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -f
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 43 		(Key = 2.2.1.0.0.2.2.2.5.1.0.2.0.1.0.2.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -f
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 44 		(Key = 2.2.1.0.0.2.2.2.5.1.0.2.0.2.0.1.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -f
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 45 		(Key = 2.2.1.0.0.2.2.2.5.1.0.2.0.2.0.1.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -f
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 46 		(Key = 2.2.1.0.0.2.2.2.5.1.0.2.0.2.0.2.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -f
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 47 		(Key = 2.2.1.0.0.2.2.2.5.1.0.2.0.2.0.2.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -f
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 48 		(Key = 2.2.2.0.0.2.2.2.2.1.0.2.0.1.0.2.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  one
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 49 		(Key = 2.2.2.0.0.2.2.2.2.1.0.2.0.1.0.2.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  one
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 50 		(Key = 2.2.2.0.0.2.2.2.2.1.0.2.0.2.0.1.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  one
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 51 		(Key = 2.2.2.0.0.2.2.2.2.1.0.2.0.2.0.1.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  one
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 52 		(Key = 2.2.2.0.0.2.2.2.2.1.0.2.0.2.0.2.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  one
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 53 		(Key = 2.2.2.0.0.2.2.2.2.1.0.2.0.2.0.2.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  one
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 54 		(Key = 2.2.2.0.0.2.2.2.3.1.0.2.0.1.0.2.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  multiple
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 55 		(Key = 2.2.2.0.0.2.2.2.3.1.0.2.0.1.0.2.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  multiple
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 56 		(Key = 2.2.2.0.0.2.2.2.3.1.0.2.0.2.0.1.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  multiple
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 57 		(Key = 2.2.2.0.0.2.2.2.3.1.0.2.0.2.0.1.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  multiple
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 58 		(Key = 2.2.2.0.0.2.2.2.3.1.0.2.0.2.0.2.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  multiple
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 59 		(Key = 2.2.2.0.0.2.2.2.3.1.0.2.0.2.0.2.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  multiple
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 60 		(Key = 2.2.2.0.0.2.2.2.4.1.0.2.0.1.0.2.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -b
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 61 		(Key = 2.2.2.0.0.2.2.2.4.1.0.2.0.1.0.2.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -b
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 62 		(Key = 2.2.2.0.0.2.2.2.4.1.0.2.0.2.0.1.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -b
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 63 		(Key = 2.2.2.0.0.2.2.2.4.1.0.2.0.2.0.1.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -b
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 64 		(Key = 2.2.2.0.0.2.2.2.4.1.0.2.0.2.0.2.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -b
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 65 		(Key = 2.2.2.0.0.2.2.2.4.1.0.2.0.2.0.2.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -b
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 66 		(Key = 2.2.2.0.0.2.2.2.5.1.0.2.0.1.0.2.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -f
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 67 		(Key = 2.2.2.0.0.2.2.2.5.1.0.2.0.1.0.2.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -f
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 68 		(Key = 2.2.2.0.0.2.2.2.5.1.0.2.0.2.0.1.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -f
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 69 		(Key = 2.2.2.0.0.2.2.2.5.1.0.2.0.2.0.1.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -f
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+
+
+Test Case 70 		(Key = 2.2.2.0.0.2.2.2.5.1.0.2.0.2.0.2.0.1.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -f
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  existance of -v
+
+
+Test Case 71 		(Key = 2.2.2.0.0.2.2.2.5.1.0.2.0.2.0.2.0.2.)
+   Presence of a file corresponding to the name                                      :  Present
+   File                                                                              :  Not empty
+   Size                                                                              :  Not Empty
+   number of file provided                                                           :  <n/a>
+   presence of file                                                                  :  <n/a>
+   File existence                                                                    :  Not Empty
+   file space                                                                        :  yes
+   duplicate file name                                                               :  no
+   number of command line arguments and options                                      :  -f
+   Valid flags specified                                                             :  Yes
+   -b Flag specified                                                                 :  <n/a>
+   command line argument for backup -b                                               :  no existance of -b
+   -f Flag specified                                                                 :  <n/a>
+   command line argument for force if an existing destination file cannot be opened, :  no existance of -f
+   -r Flag specified                                                                 :  <n/a>
+   command line argument for recursive  copy directories recursively  -r             :  no existance of -r
+   -v Flag specified                                                                 :  <n/a>
+   command line argument for verbose explain what is being done  -v                  :  no existance of -v
+

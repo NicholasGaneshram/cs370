@@ -1,0 +1,113 @@
+# Filename
+  Presence of a file corresponding to the name:
+        Not present. [error]
+        Present.
+
+# File
+
+	File:
+  		Empty.                            [single][property emptyfile]
+  		Not empty.                        [property ok]
+  		File not found.                   [error]
+
+#Source
+	
+	Size:
+		Empty.              [property emptyfile]
+		Not Empty. 
+		
+
+	number of file provided:
+      		None.              [error]
+      		One.               [single] [if !emptyfile]
+      		More than One.	   [single]
+
+	presence of file:
+     	        exist.            [error]
+      		does not exist.   [single]   
+
+#Directory 
+
+	File existence:
+		Empty.   	[error]
+		Not Empty.
+	file space:
+		no.             [error]  
+		yes.
+	duplicate file name:
+		yes.		[error] [property samename]
+		no.
+
+
+
+#OPT
+
+	number of command line arguments and options:
+      		Zero.           [single]  [property optZero]
+		one.
+      		multiple.               
+ 
+ 	 	-b.             [property backUp]
+  	 	-f.                               
+  	 	-v
+  	 	-r
+  		Opt not found.         [error]
+
+
+
+# Flags
+
+      Valid flags specified:
+       		 Yes.         
+        	 No.          [error]
+
+
+# -b flag tests
+	
+ 	 -b Flag specified:
+       		 Yes.         [single]
+        	 No.          [error]
+
+	command line argument for backup -b:
+      		existance of -b.           [if !optZero && backUp]  [single]         
+      		no existance of -b.        [if !optZero]
+
+
+
+# -f flag tests
+ 
+  	-f Flag specified:
+       		Yes.         [single]
+       	        No.          [error]
+
+	command line argument for force if an existing destination file cannot be opened, remove it and try again -f:
+      		existance of -f.           [if !optZero]  [property optFirst]         
+      		no existance of -f.        [if !optZero]
+
+
+# -r flag tests
+  
+  	-r Flag specified:
+        	Yes.         [single]
+        	No.          [error]
+ 
+	command line argument for recursive  copy directories recursively  -r:
+     		existance of -r.           [if !optZero && !optFirst]          
+      		no existance of -r.        [if !optZero] 
+      
+
+
+
+# v flag tests
+  
+  	-v Flag specified:
+        	Yes.         [single]
+        	No.          [error]
+
+
+ 
+  	command line argument for verbose explain what is being done  -v:
+      		existance of -v.           [if !optZero]           
+      		no existance of -v.        [if !optZero] 
+   
+
