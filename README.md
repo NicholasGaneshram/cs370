@@ -1,2 +1,1 @@
-# CS 370 @ Queens College
-### Projects Completed for my CS370 Class
+#### Software Development Projects Created for my CS 370 Compsci Class @ Queens College
